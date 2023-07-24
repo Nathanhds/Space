@@ -75,7 +75,7 @@ body {
 }
 
 .containerContent {
-  height: 90vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -170,6 +170,10 @@ body {
   align-items: center;
   justify-content: flex-start;
   margin-right: 15px;
+}
+
+.container h1 {
+  font-size: 120px;
 }
 
 @media (max-width: 400px) {
