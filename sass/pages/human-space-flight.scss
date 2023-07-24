@@ -89,3 +89,16 @@
         background-size: auto;
     }
 }
+
+@media (max-width: 1024px) {
+  
+    .titleSection {
+      font-size: 50px;
+      font-weight: bold;
+    }
+  
+    .subTitle {
+      font-weight: 300;
+      margin-bottom: 40px;
+    }
+  }

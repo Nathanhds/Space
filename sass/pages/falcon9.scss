@@ -206,3 +206,13 @@ p {
         }
     }
 }
+
+@media (max-width: 750px) {
+    .containerFalcon9Desc {
+        p {
+            width: auto;
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+}

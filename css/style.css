@@ -205,6 +205,16 @@ body {
     background-size: auto;
   }
 }
+@media (max-width: 1024px) {
+  .titleSection {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .subTitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+}
 .img10 {
   background-image: url(../images/falcon9/01.jpg);
 }
@@ -402,6 +412,13 @@ p {
 @media (max-width: 510px) {
   .downloadDesc button {
     margin: 10px 0px;
+  }
+}
+@media (max-width: 750px) {
+  .containerFalcon9Desc p {
+    width: auto;
+    font-size: 18px;
+    line-height: 30px;
   }
 }
 
