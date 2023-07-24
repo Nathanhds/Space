@@ -1,0 +1,91 @@
+.img5 {
+    background-image: url(../images/humanFlight/01.jpg);
+}
+
+.img6 {
+   
+    background-image: url(../images/humanFlight/02.jpg);
+}
+
+.img7 {
+    
+    background-image: url(../images/humanFlight/03.jpg);
+}
+
+.img8 {
+   
+    background-image: url(../images/humanFlight/04.jpg);
+}
+
+.img9 {
+    
+    background-image: url(../images/humanFlight/05.jpg);
+}
+
+.eartDesc {
+    background-color: black;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email {
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+        color: blue;
+    }
+}
+
+.containerRigth {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.containerLeft {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 15px;
+}
+
+@media (max-width: 400px) {
+    .img6, .img7, .img8, .img9 {
+        height: 80vh;
+    }
+    .bg-img{
+        height: 100vh;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: auto;
+    }
+    .footer {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 800px) {
+    .img6, .img7, .img8, .img9 {
+        height: 100vh;
+    }
+    .bg-img{
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1050px) {
+    .bg-img1{
+        height: 100vh;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: auto;
+    }
+}

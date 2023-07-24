@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+}
+
+body {
+    height: 100vh;
+    background-color: #212529;
+}
+
+.bg-img {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#button {
+    border: 2px solid #f8f9fa;
+}
+
+.link {
+    color: white;
+    background-image: linear-gradient(90deg, white,white);
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    background-position: left bottom;
+    transition: background-size 500ms ease;
+    text-decoration: none;
+    padding-bottom: 3px;
+    cursor:pointer;
+    &:hover {
+        background-size: 100% 2px;
+    }
+}
+
+#link {
+    color: white;
+    background-image: linear-gradient(90deg, white,white);
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    background-position: left bottom;
+    transition: background-size 500ms ease;
+    text-decoration: none;
+    cursor:pointer;
+    &:hover {
+        background-size: 100% 2px;
+    }
+}
+
+.arrowDown {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.titlePadding {
+    padding-top: 140px;
+    font-weight: bold;
+}
+
+.shortTitle {
+    width: 550px;
+    margin-bottom: -25px;
+}
+
+.footer {
+    background-color: #212529;
+    padding: 50px;
+    text-align: center;
+}
+
+.containerContent {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
